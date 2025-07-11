@@ -2,7 +2,7 @@
 
 async def welcome_message(update, context):
     """
-    Sends a welcome message when a user messages the bot privately.
+    Sends a welcome message when a user messages the bot DM.
     """
     await update.message.reply_text(
         "👋 Welcome to Softvence Omega KAM Bot!\n\n"
@@ -12,5 +12,5 @@ async def welcome_message(update, context):
         "/cupdate <message> - Send a message to the custom central update group.\n\n"
         "/wupdate <message> - Send a message to the central update group.\n\n"
         "Just send a command to get started!\n\n"
-        "Made by Foysal 😉"
+        "Made by Foysal 😉 "
     )
