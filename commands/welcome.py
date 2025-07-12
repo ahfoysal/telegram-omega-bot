@@ -10,7 +10,7 @@ async def welcome_message(update, context):
         "/timeline [Client Name] - Get the timeline information for a specific client.\n"
         "/update <message> - Send a message to the central update group.\n\n"
         "/cupdate <message> - Send a message to the custom central update group.\n\n"
-        "/wupdate <message> - Send a message to the central update group.\n\n"
-        "Just send a command to get started!\n\n"
-        "Made by Foysal 😉 "
+        "/wupdate <message> - Send a message to the wixbuddy update group.\n\n"
+        "Just send a command to get started! \n\n"
+        "Made by Foysal 😉"
     )
